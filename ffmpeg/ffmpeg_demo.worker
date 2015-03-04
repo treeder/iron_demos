@@ -1,0 +1,8 @@
+runtime 'ruby'
+stack 'ffmpeg-2.3'
+
+gem 'aws-s3'
+
+exec 'ffmpeg_script.rb'
+
+dir 'bin'
