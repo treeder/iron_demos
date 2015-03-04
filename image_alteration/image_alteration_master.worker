@@ -1,0 +1,6 @@
+runtime 'ruby'
+
+gem 'aws-s3'
+gem 'iron_worker_ng'
+
+exec 'img_alteration_master_script.rb'

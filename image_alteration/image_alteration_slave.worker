@@ -1,0 +1,14 @@
+runtime 'ruby'
+
+stack 'ruby-2.1'
+
+remote
+
+gem 'aws-s3'
+gem 'mini_magick'
+gem 'rmagick'
+gem 'rubyzip', '1.1.6'
+
+@use_build_cache = true
+
+exec 'img_alteration_slave_script.rb'
