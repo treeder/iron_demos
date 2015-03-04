@@ -23,7 +23,7 @@ $ iron_worker upload image_alteration_slave --worker-config keys.config.yml
 $ iron_worker queue image_alteration_master -p '{"bucket": "NAME OF BUCKET"}'
 ```
 
-EXAMPLE:
+Queue up only the slave:
 ```sh
 iron_worker queue image_alteration_slave --cluster 'mem1' -p '{"bucket":"NAME OF BUCKET","image_url": "https://s3.amazonaws.com/BUCKET/IMAGE.png", "photo_name":"IMAGE NAME" }'
 ```
