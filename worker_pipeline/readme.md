@@ -1,6 +1,6 @@
 ##Worker Pipeline demo
 
-Populate a 3rd party hotel database. Have a worker retreive price updates from the 3rd party API and filter them accordingly. Then, spin up slaves to update an internal DB ('s3' replicated a DB in this case)
+You'll populate a 3rd party hotel database then have a worker retreive "price updates" from the 3rd party "API" and filter into queues them accordingly. Lastly, slaves are spun up to update an internal DB ('s3' replaces a DB in this case)
 
 1.Download the following s3 gem
 ```sh
