@@ -1,0 +1,6 @@
+runtime "ruby"
+
+gem 'iron_mq'
+gem 'aws-s3'
+
+exec "internal_update.rb"

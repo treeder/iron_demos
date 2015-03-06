@@ -1,0 +1,8 @@
+runtime "ruby"
+
+gem 'iron_mq'
+gem 'iron_worker_ng'
+
+file 'iron.json'
+
+exec "pull_and_queue_by_venue.rb"

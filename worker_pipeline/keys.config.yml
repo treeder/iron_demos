@@ -1,0 +1,6 @@
+amazon:
+  access_key: 'FILL ME IN'
+  secret_key: 'FILL ME IN'
+  bucket: 'FILL ME IN'
+
+# --worker-config keys.config.yml
